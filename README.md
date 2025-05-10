@@ -6,8 +6,9 @@ This app uses LangChain with a Retrieval-Augmented Generation (RAG) pipeline to 
 
 ## How to run
 
-1. Clone repo and place PDFs in `data/papers/`
-2. Run ingestion: `python app/ingest.py`
+1. Clone repo and place PDFs in `data/`
+2. Add .env file attached via email to root directory.
+3. Run ingestion: `python app/ingest.py`
 
 ```bash
 docker-compose run backend python app/ingest.py
